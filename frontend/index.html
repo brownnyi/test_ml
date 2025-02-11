@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유사 선수 찾기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>유사한 선수 추천 시스템</h1>
+    <label for="position">포지션:</label>
+    <input type="text" id="position" placeholder="예: Forward">
+
+    <label for="height">키(cm):</label>
+    <input type="number" id="height" placeholder="예: 180">
+
+    <button onclick="findPlayers()">유사한 선수 찾기</button>
+
+    <h2>추천 선수:</h2>
+    <ul id="result"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
